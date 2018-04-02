@@ -1,0 +1,25 @@
+{
+    "name": "zhongzhiliang/table",
+    "authors": [
+        {
+            "name": "ericivan",
+            "email": "ericivan047@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "require-dev":{
+        "phpunit/phpunit": "~6.0"
+    },
+
+    "autoload":{
+        "psr-4":{
+            "Table\\": "src"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Test\\":"tests"
+        }
+    }
+}
